@@ -1,0 +1,1 @@
+// Write a program to check whether a person is adult or not. (age>=18)
