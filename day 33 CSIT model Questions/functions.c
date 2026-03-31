@@ -6,21 +6,25 @@ Argument, return*/
 
 #include<stdio.h>
 // No argument, no return
+// This function does not take any arguments and does not return any value. It simply prints "Hello World" to the console.
 void display(){
     printf("Hello World \n");
 }
 
 // Argument, no return
+// This function takes an integer argument 'a' and does not return any value. It prints the value of 'a' to the console.
 void display1(int a){
     printf("The value of a is %d\n",a);
 }
 
 // No argument, return
+// This function does not take any arguments but returns an integer value. It returns the value 10.
 int display2(){
     return 10;
 }
 
 // Argument, return
+// This function takes two integer arguments 'a' and 'b', calculates their sum, and returns the result.
 int display3(int a, int b){
     int sum = a + b;
     return sum;
